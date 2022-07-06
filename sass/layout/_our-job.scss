@@ -1,0 +1,43 @@
+.section-header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+
+    color: var(--header-color)
+}
+
+.our-job-section-list {
+    display: flex;
+    margin-right: -30px;
+}
+
+.our-job-section-list-item {
+    position: relative;
+    display: block;
+    margin-right: 30px;
+    flex-basis: calc((100% - 90px) / 3);
+}
+
+.our-job-section-dsc {
+    position: absolute;
+    bottom: 0;
+    @extend %flex-center;
+    width: 370px;
+    height: 70px;
+    background: rgba(47, 48, 58, 0.8);
+}
+
+.our-job-section-dsc-text {
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}

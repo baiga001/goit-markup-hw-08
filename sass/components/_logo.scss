@@ -1,0 +1,29 @@
+.logo-link {
+    font-family: var(--secondary-font);
+    @include font(700, 26px, 31px);
+    letter-spacing: 0.03em;
+    display: block;
+
+    color: #2196F3;
+}
+.logo-link_second-part-header_black {
+    font-family: var(--secondary-font);
+    color: #000000;
+}
+
+.logo-link-footer {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    display: block;
+    margin-bottom: 20px;
+
+    color: #2196F3;
+}
+.second-part-logo-footer {
+    font-family: var(--secondary-font);
+    color: #FFFFFF;
+}
+

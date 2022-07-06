@@ -1,0 +1,143 @@
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: var(--dark-background-color)
+}
+
+.footer-blocks {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-list-item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.address-link {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    margin-bottom: 9px;
+
+    color: #FFFFFF;
+}
+
+.mail-footer {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    margin-bottom: 9px;
+
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.tel-number-footer {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+.join-us-section {
+    margin-left: 72px;
+}
+
+.join-us-header {
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.join-us-list {
+    @extend %flex-center;
+    margin-top: 20px;
+}
+
+.join-us-list-item {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+    &:not(:last-child) {
+        margin-right: 10px;
+    }
+}
+
+.join-us-section-svg-img {
+    @extend %flex-center; 
+    width: 20px;
+    height: 20px;
+    fill: #FFFFFF;
+}
+
+
+.subscribe-form {
+    margin-left: 93px;
+}
+
+.footer-sct-form {
+    display: flex;
+}
+
+.footer-sct-form-header {
+    display: block;
+    margin-bottom: 20px;
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.footer-sct-form-email-input {
+    display: flex;
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    padding: 15px 16px;
+    outline: none;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.footer-sct-form-btn {
+    @extend %flex-center;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    padding-left: 29px;
+    border-radius: 4px 4px 4px 4px;
+    border-color: transparent;
+    margin-left: 12px;
+    background-color: #2196F3;
+    cursor: pointer;
+
+    color: #FFFFFF;
+}
+
+.footer-sct-form-icon {
+    width: 24px;
+    height: 24px;
+    fill: #FFFFFF;
+    margin-left: 10px;
+}
